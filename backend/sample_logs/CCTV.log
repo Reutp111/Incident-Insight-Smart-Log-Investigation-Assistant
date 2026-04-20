@@ -1,0 +1,8 @@
+
+11:04:21	חסום	camera_stream_detected	הגנה גבוהה	884211	10.22.14.55	ipport_ssl	RTSP	-25	192.168.200.45:554	NA	NA/Surveillance_and_Monitoring	NA/NA/NA	Israel
+11:04:22	חסום	rtsp_access_attempt	הגנה גבוהה	884211	10.22.14.55	http_request_general	RTSP	-20	rtsp://cam-office-01.local/live	NA	NA/Surveillance_and_Monitoring	VLC.3.0.18/Windows.10/NA	Israel
+11:04:23	monitor	camera_vendor_detected	הגנה גבוהה	884211	10.22.14.55	http_request_general	HTTPS	5	http://hikvision-updates.example.com/firmware	NA	NA/Surveillance_and_Monitoring	Chrome.121.0.0/Windows.10/NA	China
+11:04:24	מאופשר	camera_admin_console	הגנה בינונית	884211	10.22.14.55	http_request_general	HTTPS	10	http://192.168.200.45/login	NA	NA/Surveillance_and_Monitoring	Chrome.121.0.0/Windows.10/NA	Private
+11:04:25	חסום	onvif_device_query	הגנה גבוהה	884211	10.22.14.55	http_request_general	HTTP	-15	http://192.168.200.45/onvif/device_service	NA	NA/Surveillance_and_Monitoring	Chrome.121.0.0/Windows.10/NA	Private
+11:04:26	חסום	dahua_related_traffic	הגנה גבוהה	884211	10.22.14.55	http_request_general	HTTPS	-10	http://cloud.dahua-example.net/connect	NA	NA/Surveillance_and_Monitoring	Chrome.121.0.0/Windows.10/NA	United-States
+11:04:27	parse	parse_link	הגנה גבוהה	884211	10.22.14.55	http_monitor_response	HTTP	0	http://192.168.200.45/snapshot.jpg	http://192.168.200.45/live	NA/Surveillance_and_Monitoring	Chrome.121.0.0/Windows.10/NA	Private

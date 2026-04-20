@@ -1,0 +1,9 @@
+17:40:01	מאופשר	portal_access	הגנה גבוהה	605258	10.7.116.181	http_request_general	HTTPS	20	http://portal2.company-example.com/	https://login.company-example.com/	NA/Business_Information	Chrome.121.0.0/Windows.10/NA	Canada
+17:40:02	חסום	ssl_cert_validation_failed	הגנה גבוהה	605258	10.7.116.181	ssl_cert	SSL	-15	http://certificate.company-example.com/	NA	NA/Business_Information	NA/NA/NA	Canada
+17:40:03	חסום	vpn_tunnel_failed	הגנה גבוהה	605258	10.7.116.181	ipport_ssl	SSL	-20	198.51.100.25:443	http://vpn.company-example.com/	NA/Remote_Access	NA/NA/NA	Canada
+17:40:04	monitor	proxy_related_request	הגנה גבוהה	605258	10.7.116.181	http_request_general	HTTPS	3	http://cdn.proxy-helper-example.com/tool.js	http://masked-browsing-example.com/	NA/Proxy_Avoidance	Chrome.121.0.0/Windows.10/NA	United-States
+17:40:05	חסום	camera_stream_detected	הגנה גבוהה	605258	10.7.116.181	ipport_ssl	RTSP	-18	192.168.50.18:554	NA	NA/Surveillance_and_Monitoring	NA/NA/NA	Private
+17:40:06	חסום	dns_resolution_timeout	הגנה גבוהה	605258	10.7.116.181	dns_event	DNS	-10	vpn.company-example.com	NA	NA/Remote_Access	SystemResolver/Windows.10/NA	Canada
+17:40:07	מאופשר	login_success	הגנה גבוהה	605258	10.7.116.181	http_request_general	HTTPS	18	http://portal2.company-example.com/dashboard	https://login.company-example.com/	NA/Business_Information	Chrome.121.0.0/Windows.10/NA	Canada
+17:40:08	חסום	onvif_device_query	הגנה גבוהה	605258	10.7.116.181	http_request_general	HTTP	-15	http://192.168.50.18/onvif/device_service	NA	NA/Surveillance_and_Monitoring	Chrome.121.0.0/Windows.10/NA	Private
+17:40:09	parse	parse_link	הגנה גבוהה	605258	10.7.116.181	http_monitor_response	HTTPS	0	http://portal2.company-example.com/assets/app.css	http://portal2.company-example.com/	NA/Business_Information	Chrome.121.0.0/Windows.10/NA	Canada

@@ -1,0 +1,8 @@
+16:37:51	מאופשר	vpn_portal_access	הגנה גבוהה	605258	10.7.116.181	http_request_general	HTTPS	20	https://vpn.company-example.com/login	https://portal.company-example.com/	NA/Remote_Access	Chrome.121.0.0/Windows.10/NA	Israel
+16:37:52	מאופשר	vpn_auth_page	הגנה גבוהה	605258	10.7.116.181	http_request_general	HTTPS	15	https://vpn.company-example.com/auth	https://vpn.company-example.com/login	NA/Remote_Access	Chrome.121.0.0/Windows.10/NA	Israel
+16:37:53	חסום	vpn_certificate_validation_failed	הגנה גבוהה	605258	10.7.116.181	ssl_cert	SSL	-20	https://vpn.company-example.com/cert	NA	NA/Remote_Access	NA/NA/NA	Israel
+16:37:54	חסום	vpn_tunnel_handshake_failed	הגנה גבוהה	605258	10.7.116.181	ipport_ssl	SSL	-30	198.51.100.25:443	https://vpn.company-example.com/auth	NA/Remote_Access	NA/NA/NA	Israel
+16:37:55	monitor	vpn_remote_access_detected	הגנה גבוהה	605258	10.7.116.181	http_monitor_response	HTTPS	5	https://vpn.company-example.com/tunnel/start	https://vpn.company-example.com/auth	NA/Remote_Access	Chrome.121.0.0/Windows.10/NA	Israel
+16:37:56	חסום	openvpn_related_domain	הגנה גבוהה	605258	10.7.116.181	http_request_general	HTTPS	-10	https://downloads.openvpn-example.net/client	https://vpn.company-example.com/	NA/Software_Download	Chrome.121.0.0/Windows.10/NA	Netherlands
+16:37:57	חסום	anyconnect_login_failed	הגנה גבוהה	605258	10.7.116.181	http_request_general	HTTPS	-15	https://secure.anyconnect-example.com/login	NA	NA/Remote_Access	Chrome.121.0.0/Windows.10/NA	United-States
+16:37:58	parse	parse_link	הגנה גבוהה	605258	10.7.116.181	http_monitor_response	HTTPS	0	https://vpn.company-example.com/help	https://vpn.company-example.com/login	NA/Remote_Access	Chrome.121.0.0/Windows.10/NA	Israel

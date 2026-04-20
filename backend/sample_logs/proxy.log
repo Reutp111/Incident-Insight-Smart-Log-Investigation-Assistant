@@ -1,0 +1,6 @@
+09:15:02	חסום	proxy_policy_block	הגנה גבוהה	712004	10.9.88.14	http_request_general	HTTPS	-18	http://proxy-anonymous-example.net/list	NA	NA/Proxy_Avoidance	Chrome.121.0.0/Windows.10/NA	Germany
+09:15:03	חסום	web_filter_bypass_attempt	הגנה גבוהה	712004	10.9.88.14	http_request_general	HTTPS	-20	http://free-web-proxy-example.org/	NA	NA/Proxy_Avoidance	Chrome.121.0.0/Windows.10/NA	France
+09:15:04	monitor	proxy_related_script	הגנה גבוהה	712004	10.9.88.14	http_request_general	HTTPS	4	http://cdn.proxy-helper-example.com/app.js	http://free-web-proxy-example.org/	NA/Information_Technology	Chrome.121.0.0/Windows.10/NA	United-States
+09:15:05	חסום	upstream_proxy_ssl	הגנה גבוהה	712004	10.9.88.14	ipport_ssl	SSL	-15	203.0.113.99:443	http://free-web-proxy-example.org/	NA/Proxy_Avoidance	NA/NA/NA	United-Kingdom
+09:15:06	חסום	access_denied_by_policy	הגנה גבוהה	712004	10.9.88.14	http_monitor_response	HTTPS	-12	http://masked-browsing-example.com/	NA	NA/Proxy_Avoidance	Chrome.121.0.0/Windows.10/NA	United-States
+09:15:07	parse	parse_link	הגנה גבוהה	712004	10.9.88.14	http_monitor_response	HTTPS	0	http://proxy-anonymous-example.net/how-it-works	http://proxy-anonymous-example.net/	NA/Proxy_Avoidance	Chrome.121.0.0/Windows.10/NA	Germany
